@@ -299,5 +299,10 @@ footer p{
     font-size: 1.9vw;
     margin-top: 1.5vw;
     }
-    
+    .skills{
+    position: absolute;
+    width: 18vw !important;
+    left: 38vw;
+    top: 16vw;
+    }
 }
