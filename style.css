@@ -305,4 +305,15 @@ footer p{
     left: 38vw;
     top: 16vw;
     }
+    .select{
+    position: absolute;
+    width: 15vw !important;
+    top: -6vw;
+}
+    .client{
+    position: absolute;
+    width: 25vw !important;
+    left: 70vw;
+    top: 22vw;
+}
 }
