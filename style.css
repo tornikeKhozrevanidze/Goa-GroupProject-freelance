@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    font-family: "Inter", sans-serif;
+}
+
+ul {
+    list-style:none;
+    display:flex;
+    gap: 50px;
+    
+    
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    background-color:rgb(255, 255, 255);
+    height: 70px;
+   
+}
+header li{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+
+nav a {
+    font-size:25px;
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.261);
+    height: 65px;
+    display: flex;
+    align-items: center;
+    width: 690px;
+    border-radius: 30px;
+    justify-content: center;
+    margin-right: 70px;
+    box-shadow: 0px 0px 10px;
+    
+}
+.logo{
+    width: 150px;
+    margin-left: 5vw;
+    margin-top: 20px;
+}
+header li:hover{
+    background-color:rgba(82, 78, 75, 0.289);
+}
+i{
+    display: none !important;
+    
+}
+.sec-1{
+    display: flex;
+    padding: 0px 3vw;
+    margin-top: 2vw;
+    gap: 2vw;
+    align-items: center;
+    margin-bottom: 4vw;
+}
+.sec-1 h1{
+    font-size: 2.5vw;
+    color: rgba(0, 0, 0, 0.772);
+    margin-bottom: 2vw;
+}
+.sec-1 h5{
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    font-weight: 550;
+    line-height: 2.3vw;
+    color: rgb(78, 71, 71);
+}
+.sec-1 img{
+    width: 70vw;
+    
+}
+.sec-1 div{
+    width: 70vw;
+}
+.sec-1 p{
+    font-size: 1.5vw;
+}
+
+hr{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.sec-4 img{
+    width: 90vw;
+    margin-top: 4vw;
+}
+.sec-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 7vw;
+}
+
+/* ფოტოს და სათაურის დივი */
+.sec-4-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3vw;
+    align-items: center;
+}
+.sec-4 h1{
+    margin-top: 1vw;
+    color: rgba(0, 0, 0, 0.772);
+    font-size: 3vw;
+
+}
+.sec-4 h5{
+    margin-top: 1vw;
+    color: rgb(78, 71, 71);
+    font-size: 1.8vw;
+    margin-bottom: 2vw;
+
+}
+.sec-4 p{
+    font-size: 1.5vw;
+    margin-top: 1.5vw;
+}
+.sec-4-parent-div{
+    display: flex;
+    justify-content: center;
+    padding: 0px 1vw;
+    gap:2vw;
+    
+}
+.sec-4-parent-div div{
+    width: 45%;
+}
+#sec-5 p{
+    margin-top: 2vw;
+}
+footer img{
+    width: 2vw;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding:0px ;
+    background-color: rgba(68, 72, 75, 0.41);
+    height: 11vw;
+    align-items: center;
+    
+}
+footer p{
+    font-size: 2vw;
+}
+.footer-parent{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    flex-direction: column;
+    margin-right: 2vw;
+}
+.footer-parent div{
+    display: flex;
+    gap: 2vw;
+}
+
+
+@media(max-width: 975px){
+    .logo{
+        margin-left: 0px;
+        width: 100px;
+        margin-top: 10px;
+    }
+    nav{
+        margin-right: 0px;
+        width: 500px;
+        height: 40px;
+    }
+    header li{
+        width: 80px;
+        font-size: 20px;
+        height: 30px;
+    }
+    nav a{
+        font-size: 15px;
+    }
+    header{
+        height: 50px;
+    }
+
+}
+@media(max-width: 630px){
+    i{
+        display: block !important;
+    }
+    nav{
+        display: none !important;
+    }
+    .logo{
+        margin-left: 0px;
+    }
+    header{
+        padding: 0px;
+        padding-right: 5vw;
+    }
+}
+@media(max-width: 500px){
+    header{
+        height: 7vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+    .logo{
+        width: 17vw;
+    }
+    .sec-1 p{
+        font-size: 1.8vw;
+    }
+    .sec-1 h5{
+        font-size: 1.9vw;
+        line-height: 2.5vw;
+    }
+    .sec-1 h1{
+        font-size: 2.8vw;
+    }
+    .sec-1{
+        margin-bottom: 6vw;
+    }
+    .sec-4 h1{
+    margin-top: 1vw;
+    color: rgba(0, 0, 0, 0.772);
+    font-size: 3.2vw;
+
+    }
+    .sec-4 h5{
+    margin-top: 1vw;
+    color: rgb(78, 71, 71);
+    font-size: 2.2vw;
+    margin-bottom: 2vw;
+
+    }
+    .sec-4 p{
+    font-size: 1.9vw;
+    margin-top: 1.5vw;
+    }
+    
+}
